@@ -1,0 +1,19 @@
+{
+  "name": "meetup-api",
+  "version": "1.0.0",
+  "description": "This is a meet up API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duncanian/meetup-api.git"
+  },
+  "author": "Ian Duncan <ianduncan08@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Duncanian/meetup-api/issues"
+  },
+  "homepage": "https://github.com/Duncanian/meetup-api#readme"
+}
