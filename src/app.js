@@ -1,7 +1,7 @@
-const express = require('express');
-const logger = require('morgan');
-const bodyParser = require('body-parser');
-const cors = require('cors');
+import express from 'express';
+import logger from 'morgan';
+import bodyParser from 'body-parser';
+import cors from 'cors';
 
 // Set up the express app
 const app = express();
@@ -20,4 +20,4 @@ app.get('*', (req, res) => res.status(404).send({
   message: 'Sorry, we lost you!',
 }));
 
-module.exports = app;
+export default app;
