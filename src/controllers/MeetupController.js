@@ -30,4 +30,14 @@ export default class MeetupController {
       reqResponses.handleError(error.toString(), 500, res);
     }
   }
+
+  static async getAllMeetUps(req, res) {
+    try {
+      const meetups = await MeetUp.find({});
+      const message = [200, 'Meetups retrieved successfully', true];
+      reqResponses.handleSuccess(res, message, meetups);
+    } catch (error) {
+      reqResponses.handleError(error.toString(), 500, res);
+    }
+  }
 }

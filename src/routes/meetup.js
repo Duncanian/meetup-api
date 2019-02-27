@@ -13,4 +13,9 @@ Router.get(
   MeetupController.getOneMeetUp,
 );
 
+Router.get(
+  '/meetups',
+  MeetupController.getAllMeetUps,
+);
+
 export default Router;
