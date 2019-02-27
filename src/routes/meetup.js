@@ -8,4 +8,9 @@ Router.post(
   MeetupController.createMeetUp,
 );
 
+Router.get(
+  '/meetup/:id',
+  MeetupController.getOneMeetUp,
+);
+
 export default Router;
