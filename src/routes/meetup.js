@@ -18,4 +18,9 @@ Router.get(
   MeetupController.getAllMeetUps,
 );
 
+Router.patch(
+  '/meetup/:id',
+  MeetupController.updateOneMeetUp,
+);
+
 export default Router;
